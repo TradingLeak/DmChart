@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301000000000000000000001 /* DmChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401000000000000000000001 /* DmChartApp.swift */; };
+		301000000000000000000002 /* ChartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401000000000000000000002 /* ChartScreen.swift */; };
+		301000000000000000000003 /* ChartWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401000000000000000000003 /* ChartWebView.swift */; };
+		301000000000000000000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401000000000000000000004 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401000000000000000000001 /* DmChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmChartApp.swift; sourceTree = "<group>"; };
+		401000000000000000000002 /* ChartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartScreen.swift; sourceTree = "<group>"; };
+		401000000000000000000003 /* ChartWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartWebView.swift; sourceTree = "<group>"; };
+		401000000000000000000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		401000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401000000000000000000006 /* DmChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DmChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				501000000000000000000002 /* DmChart */,
+				501000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		501000000000000000000002 /* DmChart */ = {
+			isa = PBXGroup;
+			children = (
+				501000000000000000000003 /* App */,
+				401000000000000000000004 /* Assets.xcassets */,
+				401000000000000000000005 /* Info.plist */,
+			);
+			path = DmChart;
+			sourceTree = "<group>";
+		};
+		501000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				401000000000000000000001 /* DmChartApp.swift */,
+				401000000000000000000002 /* ChartScreen.swift */,
+				401000000000000000000003 /* ChartWebView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		501000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401000000000000000000006 /* DmChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222000000000000000000001 /* DmChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802000000000000000000001 /* Build configuration list for PBXNativeTarget "DmChart" */;
+			buildPhases = (
+				601000000000000000000001 /* Sources */,
+				601000000000000000000002 /* Frameworks */,
+				601000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DmChart;
+			productName = DmChart;
+			productReference = 401000000000000000000006 /* DmChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					222000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					ProvisioningStyle = Automatic;
+				};
+			};
+			};
+			buildConfigurationList = 801000000000000000000001 /* Build configuration list for PBXProject "DmChart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501000000000000000000001;
+			productRefGroup = 501000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222000000000000000000001 /* DmChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		601000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301000000000000000000004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		601000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301000000000000000000001 /* DmChartApp.swift in Sources */,
+				301000000000000000000002 /* ChartScreen.swift in Sources */,
+				301000000000000000000003 /* ChartWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		701000000000000000000001 /* Debug Project */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		701000000000000000000002 /* Release Project */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		701000000000000000000003 /* Debug DmChart */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DmChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmcharts.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		701000000000000000000004 /* Release DmChart */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DmChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmcharts.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801000000000000000000001 /* Build configuration list for PBXProject "DmChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701000000000000000000001 /* Debug Project */,
+				701000000000000000000002 /* Release Project */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802000000000000000000001 /* Build configuration list for PBXNativeTarget "DmChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701000000000000000000003 /* Debug DmChart */,
+				701000000000000000000004 /* Release DmChart */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111000000000000000000001 /* Project object */;
+}
